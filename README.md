@@ -1,12 +1,26 @@
-# React + Vite
+# IEEE El Shorouk Academy Web App 🌐⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the IEEE El Shorouk Academy Student Branch web application! This platform serves as the digital presence of our student branch, designed to showcase events, teams, membership info, and updates—all built with ❤️ using **React.js**.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React.js (with functional components and hooks)
+- **Routing**: React Router DOM
+- **Styling**: Tailwind CSS
+- **State Management**: React Context API / Redux 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🏛️ About IEEE and our student branch  
+- 📅 Upcoming & Past Events  
+- 👨‍👩‍👧‍👦 Team Members and Organizational Structure  
+- 📝 Join Us (Membership Form or External Link)  
+- 📷 Gallery and Media  
+- 📣 News & Announcements  
+- 📬 Contact Us section  
+
+## 🚀 Getting Started
+
+To run the project locally:
+
