@@ -1,15 +1,30 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div className=' bg-red-500'>
-        test
+      <div className=' '>
+        <BrowserRouter>
+        <Header/>
+        
+        
+        <Routes>
+
+          <Route path='/' element={<Home />} />    
+
+          {/* <Route path='/' element={<Home />} />               
+          <Route path='/' element={<Home />} />               
+          <Route path='/' element={<Home />} />                */}
+
+        </Routes>
+        
+        </BrowserRouter>
       </div>
     </>
   )
