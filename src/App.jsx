@@ -1,33 +1,26 @@
-import { useState } from 'react'
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import './App.css'
-import Home from './pages/Home'
-import Header from './components/Header'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import Header from "./components/Header";
 
 function App() {
-  
-
   return (
     <>
-      <div className=' '>
+      <div className=" ">
         <BrowserRouter>
-        <Header/>
-        
-        
-        <Routes>
+          <Header />
 
-          <Route path='/' element={<Home />} />    
+          <Routes>
+            <Route path="/" element={<Home />} />
 
-          {/* <Route path='/' element={<Home />} />               
+            {/* <Route path='/' element={<Home />} />               
           <Route path='/' element={<Home />} />               
           <Route path='/' element={<Home />} />                */}
-
-        </Routes>
-        
+          </Routes>
         </BrowserRouter>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
