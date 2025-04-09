@@ -1,0 +1,61 @@
+.committees-container {
+    min-height:100vh;
+    background:linear-gradient(to bottom, #000, #1f2937, #000);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.committees-header {
+    text-align: center;
+    padding:4rem 0;
+  }
+  
+.committees-header h1 {
+    font-size:2.5rem;
+    font-weight:bold;
+  }
+.committees-main {
+    max-width:900px;
+    margin:0 auto;
+    padding:0 1rem;
+    display:grid;
+    gap:3rem;
+  }
+
+.committee-card-wrapper {
+    position:relative;
+    padding-left:8rem;
+  }
+  
+.committee-circle {
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    width:6rem;
+    height:6rem;
+    background-color: #374151;
+    color: white;
+    font-size:0.75rem;
+    border-radius:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1.1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+  }
+  
+.committee-card {
+    background-color: #1f2937;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+  
+.committee-card p {
+    font-size: 0.9rem;
+    color: #d1d5db;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+ }
