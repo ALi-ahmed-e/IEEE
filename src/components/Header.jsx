@@ -30,7 +30,7 @@ const Header = () => {
                         </div>
                     </NavLink>
 
-                    <NavLink to='/comittees'>
+                    <NavLink to='/committees'>
                         <div className='p-3 rounded-lg hover:bg-white/30  transition-all flex items-center justify-center'>
                             <HiOutlineUsers className='mr-2' /> COMMITTEES
                         </div>
@@ -100,7 +100,7 @@ const Header = () => {
                         </div>
                     </NavLink>
 
-                    <NavLink to='/comittees'>
+                    <NavLink to='/committees'>
                         <div className='p-3 rounded-lg hover:bg-white/30  transition-all flex items-center justify-center'>
                             <HiOutlineUsers className='mr-2' /> COMMITTEES
                         </div>

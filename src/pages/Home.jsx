@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
 
-        <Hero />
+        <Hero page={"IEEE SHA SB-9"}/>
         
         <Who />
 

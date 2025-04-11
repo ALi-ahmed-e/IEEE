@@ -1,25 +1,29 @@
 import React from 'react'
+import { useEffect } from 'react'
 
-const Hero = () => {
+const Hero = ({page}) => {
+    
+    
+    
     return (
         <div  className={`bg-[url('./assets/hero.jpg')]  bg-center bg-no-repeat bg-cover h-screen flex flex-col justify-center lg:pt-0 pt-68`} >
 
 
             <div className=' flex flex-col justify-center items-center'>
 
-                <span className='text-xl font-semibold text-white/60 mb-3'>
+                {page&&page == "IEEE SHA SB-9"&&<span className='text-xl font-semibold text-white/60 mb-3'>
                     Welcome at
 
-                </span>
+                </span>}
 
                 <h1 className='text-5xl font-bold text-white mb-3'>
-                    IEEE SHA SB-9
+                    {page&&page}
 
                 </h1>
 
-                <span className='text-xl font-semibold text-white/60'>
+               {page&&page == "IEEE SHA SB-9"&& <span className='text-xl font-semibold text-white/60'>
                     El - Shorouk Academy Student Branch
-                </span>
+                </span>}
 
             </div>
 
