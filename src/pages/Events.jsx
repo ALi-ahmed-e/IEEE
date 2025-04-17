@@ -17,7 +17,7 @@ const lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ac
     ]
 
     return (
-        <div className=' bg-gradient-to-b from-[#000F1F] to-[#002747]   p-5 py-20 text-white min-h-screen select-none lg:pt-20 pt-86'>
+        <div className=' bg-gradient-to-b from-[#000F1F] to-[#002747]   p-5 py-20 text-white min-h-screen select-none lg:pt-20 pt-40'>
 
 
 

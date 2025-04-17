@@ -139,7 +139,7 @@ const OurTeams = () => {
   }
 
   return (
-    <div className="bg-gradient-to-b from-[#000F1F] to-[#002747] pb-20 p-5 pt-88 text-white lg:pt-32">
+    <div className="bg-gradient-to-b from-[#000F1F] to-[#002747] pb-20 p-5 pt-40 text-white lg:pt-32">
       <h1 className="text-4xl font-bold w-full text-center mb-10">Our Teams</h1>
 
       {Object.entries(teams).map(([key, section], idx) => (

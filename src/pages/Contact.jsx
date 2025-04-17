@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className=' bg-gradient-to-b from-[#000F1F] to-[#002747]   p-5 py-20 text-white min-h-screen select-none lg:pt-25 pt-86'>
+        <div className=' bg-gradient-to-b from-[#000F1F] to-[#002747]   p-5 py-20 text-white min-h-screen select-none lg:pt-25 pt-40'>
             
 
 
